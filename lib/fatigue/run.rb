@@ -82,9 +82,7 @@ module Fatigue
       pace_f = (duration.to_f / 1000 / 60) / distance_to_mi
       mins = pace_f.to_i
       secs = (pace_f - mins) * 60
-      p = "%d:%02d" % [mins, secs]
-      puts p
-      p
+      "%d:%02d" % [mins, secs]
     end
 
 

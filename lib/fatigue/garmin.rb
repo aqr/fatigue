@@ -173,7 +173,7 @@ module Fatigue
       html.css('#ErrorContainer').text.strip == ''
     end
 
-    # Verifies whether the ajax response returned is succesful or not.
+    # Verifies whether the ajax response returned is successful or not.
     #
     # Returns a Boolean value for whether the ajax response was successful or not.
     def verify_ajax_response(html_body)
